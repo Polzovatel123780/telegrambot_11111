@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-TOKEN = token_value # Токен бота
-GROUP_ID = id_group  # ID группы обсуждений
+TOKEN = 7562892913:AAFEJq-dm0FbIDlsKQRzB5daABtiKA06Yuo # Токен бота
+GROUP_ID = -1002332478580  # ID группы обсуждений
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
